@@ -1,4 +1,3 @@
-package com.sundogsoftware.spark.examples
 
 object VariableScope {
   def main(args:Array[String]) {
