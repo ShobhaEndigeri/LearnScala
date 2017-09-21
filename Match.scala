@@ -1,4 +1,3 @@
-package com.sundogsoftware.spark
 
 object Match {
   def main(args: Array[String]){
