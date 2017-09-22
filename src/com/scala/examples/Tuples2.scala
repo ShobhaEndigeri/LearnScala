@@ -4,6 +4,8 @@ object Tuples2 {
   def main(args:Array[String]) {
     var longWord = longestWord("Hello , good afternoon".split(" "))
     println("Longest word found is ["+longWord._1+"] found at location ["+longWord._2+"]")
+    val (word, idx) = longWord
+    println(word+" "+idx)
   }
   
   def longestWord(arr:Array[String]) ={
